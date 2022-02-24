@@ -87,16 +87,16 @@ print(VanHoutten & Simpsons)
 # Otros elementos de datos - Listas
 ################################################################################################################################
 
-## Lista - Coleccion de elementos ordenados, que pueden repetirse
-#text = "Hola chic@s!"
-#print(list(text))
-#print(set(text))
-#
-## Ordenamiento
-## No tiene sentido en sets, solo en las listas
-#
-#lista = list(text)
-#print(lista[1])
-#
-#set5 = set(text)
-##print(set5[1])
+# Lista - Coleccion de elementos ordenados, que pueden repetirse
+text = "Hola chic@s!"
+print(list(text))
+print(set(text))
+
+# Ordenamiento
+# No tiene sentido en sets, solo en las listas
+
+lista = list(text)
+print(lista[1])
+
+set5 = set(text)
+#print(set5[1])
