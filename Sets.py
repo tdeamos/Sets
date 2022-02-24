@@ -43,6 +43,42 @@ print("Borrado de elementos")
 set6.clear()
 print(set6)
 
+# Interseccion
+alumnosEstad = {'Jorge', 'Daniela', 'Pablo'}
+alumnosMate = {'Jorge', 'Marcos', 'Ana'}
+print("Interseccion entre conjuntos")
+print(alumnosEstad & alumnosMate)
+
+# Union
+print("Union entre conjuntos")
+print(alumnosEstad | alumnosMate)
+
+# Diferencia
+print("Diferencia entre conjuntos")
+print(alumnosEstad - alumnosMate)
+
+# Igualdad de conjuntos
+print("Igualdad entre conjuntos Mate y Esta")
+print(alumnosEstad == alumnosMate)
+
+alumnosLit = {'Marcos', 'Ana', 'Jorge'}
+print("Igualdad entre conjuntos Mate y Lit")
+print(alumnosLit == alumnosMate)
+
+# Subconjuntos
+
+Simpsons = {'Homero', 'Marge', 'Maggie', 'Lisa', 'Bart'}
+SimpsonsChilds = {'Maggie', 'Lisa', 'Bart'}
+print("Subconjuntos")
+print(SimpsonsChilds.issubset(Simpsons))
+
+print("Superconjuntos")
+print(Simpsons.issuperset(SimpsonsChilds))
+
+# Conjuntos disjuntos
+VanHoutten = {'Kirk', 'Laun', 'Milhouse'}
+print("Disjuntos")
+print(VanHoutten & Simpsons)
 
 
 ### Borrar un elemento en especifico ? y agregarlo ?
